@@ -2,33 +2,50 @@ body {
 	display: table;
 	margin: 0 auto;
 	font-family: Arial, Helvetica, sans-serif;
+	background-color: #83B5D1;
 }
 h1 {
 	text-align: center;
-}
-div {
-	outline: 1px solid #aaa;
+	border: 2px solid #000;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 8px;
+	background-color: #fff;
 }
 #content-wrapper {
-	width: 730px;
+	width: 727px;
 	height: 550px;
 }
 #button-nav {
 	float: left;
-	width: 120px;
+	width: 123px;
 }
 #image-wrapper {
 	float: left;
 	width: 600px;
 	height: 500px;
-	margin-left: 10px;
+	border: 2px solid #000;
+	border-radius: 10px;
 }
 .button {
 	float:left;
 	padding: 4px;
 	margin: 4px;
+	margin-top: 0px;
+	margin-left: 0px;
 	cursor: pointer;
+	border: 2px solid #000;
+	border-radius: 10px;
+	background-color: #fff;
 }
 .button:hover {
 	background-color: #ddd;
+}
+.disabled {
+	color: #ddd;
+	border: 2px solid #ddd;
+	cursor: default;
+}
+.disabled:hover {
+	background-color: #fff;
 }
